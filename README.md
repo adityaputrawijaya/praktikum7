@@ -101,4 +101,4 @@ def ubah(*nama):
         print("Nama {0} tidak ditemukan".format(nama))
     return
  ```
-![gambar1](gambar/gb3.png)
+![gambar1](gambar/gb2.png)
