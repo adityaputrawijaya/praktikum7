@@ -20,7 +20,7 @@ return "".join(set(s))
 ![gambar1](gambar/gb1.png)
 
 ## Tugas Praktikum
-- Buat program sederhana dengan mengaplikasikan penggunaan fungsi yang akan menampilkan daftar nilai mahasiswa, dengan ketentuan :
+#### Buat program sederhana dengan mengaplikasikan penggunaan fungsi yang akan menampilkan daftar nilai mahasiswa, dengan ketentuan :
 > fungsi tambah() untuk menambahkan data
 > fungsi tampilkan() untuk menampilkan data
 > fungsi hapus(nama) untuk menghapus data bedasarkan nama
@@ -29,7 +29,9 @@ return "".join(set(s))
 > Commit dan push repository ke github
 Daftar Nilai Mahasiswa Menggunakan fungsi
 > Sebelum kita menggunakan fungsi, kita membuat sebuah dictionary kosong terlebih dahulu
+```
 data = {}
+```
 > Seletah dictionary dibuat, kita akan menampilkan data mahasiswa dengan menggunakan fungsi
 Fungsi Untuk Menambahkan Data
 ```
