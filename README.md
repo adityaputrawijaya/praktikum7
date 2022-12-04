@@ -17,6 +17,7 @@ def d(s):
 return "".join(set(s))
 ```
 ![gambar1](gambar/gb.png)
+
 ![gambar1](gambar/gb1.png)
 
 ## Tugas Praktikum
