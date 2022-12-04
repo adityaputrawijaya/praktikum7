@@ -16,10 +16,11 @@ return sum(args)/len(args)
 def d(s):
 return "".join(set(s))
 ```
-gambar1 gambar1
+![gambar1](gambar/gb.png)
+![gambar1](gambar/gb1.png)
 
-Tugas Praktikum
-Buat program sederhana dengan mengaplikasikan penggunaan fungsi yang akan menampilkan daftar nilai mahasiswa, dengan ketentuan :
+## Tugas Praktikum
+- Buat program sederhana dengan mengaplikasikan penggunaan fungsi yang akan menampilkan daftar nilai mahasiswa, dengan ketentuan :
 > fungsi tambah() untuk menambahkan data
 > fungsi tampilkan() untuk menampilkan data
 > fungsi hapus(nama) untuk menghapus data bedasarkan nama
@@ -31,6 +32,7 @@ Daftar Nilai Mahasiswa Menggunakan fungsi
 data = {}
 > Seletah dictionary dibuat, kita akan menampilkan data mahasiswa dengan menggunakan fungsi
 Fungsi Untuk Menambahkan Data
+```
 def tambah(*t):
     print("Tambah Data")
     nama = input("Nama           : ")
@@ -41,7 +43,9 @@ def tambah(*t):
     akhir = tugas*30/100 + uts*35/100 + uas*35/100
     data[nama] = nim, uts, uas, tugas, akhir
     return
-Fungsi Untuk Menampilkan Data
+```
+- Fungsi Untuk Menampilkan Data sebagai berikut
+```
 def tampilkan(*l):
     if data.items():
         print("="*78)
@@ -64,7 +68,9 @@ def tampilkan(*l):
         print("|                                TIDAK ADA DATA                              |")
         print("="*78)
     return
-Fungsi Untuk Menghapus Data Berdasarkan Nama
+```
+- Fungsi Untuk Menghapus Data Berdasarkan Nama
+```
 def hapus(*nama):
     print("Hapus Data")
     nama = input("Masukkan Nama  : ")
@@ -73,7 +79,9 @@ def hapus(*nama):
     else:
         print("Nama {0} Tidak Ditemukan".format(nama))
     return
-Fungsi Untuk Mengubah Data Berdasarkan Nama
+```
+- Fungsi Untuk Mengubah Data Berdasarkan Nama
+```
 def ubah(*nama):
     print("Ubah Data")
     nama = input("Masukkan Nama  : ")
@@ -87,4 +95,5 @@ def ubah(*nama):
     else:
         print("Nama {0} tidak ditemukan".format(nama))
     return
-gambar1
+ ```
+![gambar1](gambar/gb3.png)
