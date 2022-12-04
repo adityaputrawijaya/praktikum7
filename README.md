@@ -22,18 +22,20 @@ return "".join(set(s))
 
 ## Tugas Praktikum
 #### Buat program sederhana dengan mengaplikasikan penggunaan fungsi yang akan menampilkan daftar nilai mahasiswa, dengan ketentuan :
-> fungsi tambah() untuk menambahkan data
-> fungsi tampilkan() untuk menampilkan data
-> fungsi hapus(nama) untuk menghapus data bedasarkan nama
-> fungsi ubah(nama) untuk mengubah data bedasarkan nama
-> Buat flowchart dan penjelasan program pada README.md
-> Commit dan push repository ke github
+- fungsi tambah() untuk menambahkan data
+- fungsi tampilkan() untuk menampilkan data
+- fungsi hapus(nama) untuk menghapus data bedasarkan nama
+- fungsi ubah(nama) untuk mengubah data bedasarkan nama
+- Buat flowchart dan penjelasan program pada README.md
+- Commit dan push repository ke github
+```
 Daftar Nilai Mahasiswa Menggunakan fungsi
-> Sebelum kita menggunakan fungsi, kita membuat sebuah dictionary kosong terlebih dahulu
+```
+- Sebelum kita menggunakan fungsi, kita membuat sebuah dictionary kosong terlebih dahulu
 ```
 data = {}
 ```
-> Seletah dictionary dibuat, kita akan menampilkan data mahasiswa dengan menggunakan fungsi
+- Seletah dictionary dibuat, kita akan menampilkan data mahasiswa dengan menggunakan fungsi
 Fungsi Untuk Menambahkan Data
 ```
 def tambah(*t):
