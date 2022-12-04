@@ -17,7 +17,7 @@ def d(s):
 return "".join(set(s))
 ```
 ![gambar1](gambar/gb.png)
-## Hasil setelah di jalankan
+## Hasil setelah dijalankan(RUN)
 ![gambar1](gambar/gb1.png)
 
 ## Tugas Praktikum
@@ -101,4 +101,5 @@ def ubah(*nama):
         print("Nama {0} tidak ditemukan".format(nama))
     return
  ```
+ ## Hasil setelah dijalankan(RUN)
 ![gambar1](gambar/gb2.png)
